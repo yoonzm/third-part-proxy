@@ -4,7 +4,8 @@ const http = require('http');
 const httpProxy = require('http-proxy');
 
 // 提供服务的端口号
-const PORT = 17901;
+const PORT = process.env.port;
+const TARGET = process.env.target;
 
 // 创建反向代理服务
 const proxy = httpProxy.createProxyServer();
@@ -20,7 +21,7 @@ const app = http.createServer(function (req, res) {
     // 执行反向代理
     proxy.web(req, res, {
         // 目标地址
-        target: 'http://14.215.177.38',
+        target: TARGET,
         changeOrigin: true
     });
 });
