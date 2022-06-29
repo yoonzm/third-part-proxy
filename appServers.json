@@ -6,7 +6,7 @@
       "watch": false,
       "env": {
         "port": "17901",
-        "target": "http://files2.17173.com/files/2016/6/12/1/index.html"
+        "target": "https://files2.17173.com/files/2016/6/12/1/index.html"
       }
     }
   ]
