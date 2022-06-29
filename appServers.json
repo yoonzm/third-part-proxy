@@ -1,12 +1,12 @@
 {
   "apps": [
     {
-      "name": "baidu",
+      "name": "9s999",
       "script": "./app.js",
       "watch": false,
       "env": {
         "port": "17901",
-        "target": "http://14.215.177.38"
+        "target": "https://www.9s999.cn/"
       }
     }
   ]
