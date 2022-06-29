@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "baidu",
+      "script": "./app.js",
+      "watch": false,
+      "env": {
+        "port": "17901",
+        "url": "http://14.215.177.38"
+      }
+    }
+  ]
+}
