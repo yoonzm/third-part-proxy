@@ -1,12 +1,12 @@
 {
   "apps": [
     {
-      "name": "9s999",
+      "name": "17173",
       "script": "./app.js",
       "watch": false,
       "env": {
         "port": "17901",
-        "target": "https://www.9s999.cn/"
+        "target": "http://files2.17173.com/files/2016/6/12/1/index.html"
       }
     }
   ]
