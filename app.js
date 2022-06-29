@@ -1,5 +1,5 @@
 // 导入http模块
-const http = require('http');
+const https = require('https');
 // 导入http-proxy模块
 const httpProxy = require('http-proxy');
 
@@ -17,7 +17,7 @@ proxy.on('error', function (err, req, res) {
 });
 
 // 创建服务
-const app = http.createServer(function (req, res) {
+const app = https.createServer(require('./https/httpsOptions'), function (req, res) {
     // 执行反向代理
     proxy.web(req, res, {
         // 目标地址
